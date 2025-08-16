@@ -1,0 +1,21 @@
+SVM SENTIMENT CLASSIFIER - MODEL REPORT
+==================================================
+
+Dataset: F:\Assessment\data\comments_sentiments.csv
+Training samples: 80
+Test samples: 20
+Features: 258
+Classes: ['Negative', 'Neutral', 'Positive']
+
+PERFORMANCE METRICS:
+Test Accuracy:  0.7500
+Test Precision: 0.5625
+Test Recall:    0.7500
+Test F1-Score:  0.6429
+
+MODEL CONFIGURATION:
+Algorithm: Support Vector Machine (SVM)
+Kernel: RBF
+C parameter: 1.0
+Gamma: scale
+Vectorizer: TF-IDF (max_features=5000)
